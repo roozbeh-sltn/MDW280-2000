@@ -21,7 +21,9 @@ class assertionTest {
 
 	      //Vérifiez que deux objets sont égaux
 	      assertEquals(str1, str2);
-
+          System.out.print("assert Equals");
+          
+          
 	      //Vérifier qu'une condition est vraie
 	      assertTrue (val1 < val2);
 
@@ -42,6 +44,8 @@ class assertionTest {
 
 	     // Vérifiez si deux tableaux sont égaux l'un à l'autre
 	      assertArrayEquals(expectedArray, resultArray);
+	      
+	     
 	   }
 	}
 

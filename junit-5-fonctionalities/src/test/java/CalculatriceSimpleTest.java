@@ -28,6 +28,10 @@ class CalculatriceSimpleTest {
 		//assertEquals
 		int attendu = 7;
 		int obtenu = calculatrice.addition(6,1 );
+		
+		/*Les méthodes de la classe Assert offrent des assertions prédéfinies d'égalité ou
+		d’inégalité.Elle prend en paramètre un valeur attendu et d'autre est obtenu*/
+		
 		assertEquals(attendu,obtenu);
 		
 	}
